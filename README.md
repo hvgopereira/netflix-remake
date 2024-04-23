@@ -3,7 +3,7 @@
 
 https://github.com/hvgopereira/netflix-remake/assets/162385532/2a2d386a-1d78-4f6f-92c9-f9b9850c47f2
 
-🔴 NÃO É RESPONSIVO 🔴
+🔴 <strong >NÃO É RESPONSIVO </strong>🔴
 
 <img title="Logo Hugo Pereira" src="https://github.com/hvgopereira/netflix-remake/assets/162385532/1063be5e-a9fa-4aba-a6e5-ff5a99957761" min-width="150px" max-width="150px" width="150px" align="right" alt="Logo Hugo Pereira" > </img>
 
@@ -18,11 +18,11 @@ Em breve mostrarei o resultado do site, espero que gostem!
 
 <section>
   Obrigado por acompanhar meu progresso!.
+  <h6 align="right">Adicionado 22/04</h6>
 <!--   <span min-width="150px" max-width="150px" width="150px align="right">Adicionado 22/04</span> -->
 </section>
 
 <section>
   <img src="https://github.com/hvgopereira/netflix-remake/assets/162385532/d3ab375d-2ea4-434c-81e6-b724ba794f7a"> </img>
-  <span align="right">Adicionado 22/04</span>
 </section>
 
