@@ -7,16 +7,32 @@
     font-family: "Montserrat", sans-serif;
     color: var(--txt-primary);
     list-style: none;
+    font-style: normal;
+    
     /* text-decoration: none; */
 }
 
 :root {
     --txt-primary: white;
+    --txt-link: #5091ee;
+
     
 }
 
+
+/* Divisor */
+.division {
+    height: 9px;
+    margin: 3rem 0;
+    border: none;
+    background: rgba(128, 128, 128, 0.248);
+    z-index: 99;
+}  
+/* /Divisor */
+
 body {
     background-image: url(/Projetos/netflix\ clone/assets/netflix-bg.jpg);
+    
 }
 
 .top-header {
@@ -38,6 +54,7 @@ body {
     /* opacity: 4%; */
     transition: all 0.3s;
     cursor: pointer;
+
 }
 
 .logohugo:hover {
@@ -60,6 +77,12 @@ body {
 
 .logo-header {
     width: 150px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.logo-header:hover {
+    transform: scale(1.1);
 }
 
 .idioma-select {
@@ -69,6 +92,12 @@ body {
     font-weight: 700;
     font-size: 15px;
 }
+
+.idioma-select option {
+    background: black;
+}
+
+
 
 .btn-enter {
     border: none;
@@ -95,7 +124,9 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 75vh;
+    height: 90vh;
+    z-index: 99;
+    
 }
 
 .main-principal {
@@ -115,7 +146,7 @@ body {
 
 
 .main-title {
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 900;
 }
 
@@ -152,6 +183,7 @@ body {
     background: rgba(0, 0, 0, 0.255);
     border: none;
     border: 1px solid rgba(255, 255, 255, 0.252);
+    border-radius: 5px;
     
 }
 
@@ -177,7 +209,6 @@ body {
 .btn-main:hover {
     background: white;
     color: red;
-    font-weight: 600;
     transform: scale(1.1);
 }
 
@@ -188,49 +219,131 @@ body {
 /* Card */
 
 .card-all {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* position: inherit; */
+    /* position: absolute;     */
+    bottom: 5rem;
+    position: relative;
+    
+    /* padding: 5rem 2rem; */
+    /* margin: auto 2rem auto; */
+    /* max-width: 1300px; */
+    /* height: 140px; */
 
-    margin: 0 auto 20rem auto;
-    max-width: 1300px;
-    height: 140px;
-    background: radial-gradient(circle at top, 
-    #7c1736, #241649, #000000 );
+    /* background: radial-gradient(circle at top, 
+    #7c1736, #241649, #000000 ); */
 }
 
 
 .card-plan {
+    /* position: absolute; */
+    /* left: 32px; */
+    /* height: rem; */
+    position: absolute;
+
+    /* background: radial-gradient(circle at top, #7c1736, #24154c, #5a28ff5b); */
+    background: radial-gradient(circle at top, #9a183f, #241649d3, rgba(8, 5, 29, 0.7), transparent );
+    /* border-radius: 15px; */
+
+    padding: 2rem 26rem;
+    /* padding: 2rem 48rem; */
+
     display: flex;
     justify-content: center;
     align-items: center;
-    /* max-width: 300px; */
+
+    text-align: left;
+
     gap: 2rem;
+    /* max-width: 300px; */
+
 }
 
 .card-plan .popcorn-img img{
     width: 60px;
     
+    
 }
 
 .card-txt {
     display: flex;
+    justify-content: center;
     flex-direction: column;
-    gap: 13px;
+    gap: px;
+    white-space: nowrap;
+
 }
+
+
 
 .card-plan .card-txt h3 {
-    font-size: 20px;
-    font-weight: 700
-}
-
-.about-plan-card {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 500;
 }
 
+.card-plan .card-txt .about-plan-card {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
 .saiba-mais {
-    color: #5091ee;
+    color: var(--txt-link);
     font-weight: 600;
 }
 
+.symbol-modify {
+    color: var(--txt-link);
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    /* font-size: 35px; */
+
+    margin-left: 9px;
+}
+
+
+/* SECTION ABOUT */
+.section-alls {
+    background: rgb(0, 0, 0);
+    z-index: 98;
+}
+
+.section-alls > * {
+    /* margin-top: -4rem; */
+    z-index: 98;
+}
+
+.tv-sec {
+    background: black;
+    padding: 5rem 10rem;
+    bottom: 10rem;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--txt-princial);
+    
+    /* gap: 30rem; */
+}
+
+.tv-txt {
+
+}
+
+.tv-sec-title {
+    font-size: 47px;
+    font-style: normal;
+    margin-bottom: 14px;
+}
+
+.tv-sec-subtitle {
+    font-style: normal;
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+
+
+/* /SECTION ABOUT */
