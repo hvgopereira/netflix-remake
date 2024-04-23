@@ -15,4 +15,13 @@ Durante o processo de construção, estou mergulhando na importância da estrutu
 
 Em breve mostrarei o resultado do site, espero que gostem!
 
-Obrigado por acompanhar meu progresso!.
+
+<div>
+  Obrigado por acompanhar meu progresso!.
+  <span align="right">                          Adicionado 22/04</span>
+</div>
+
+
+<section>
+  <img src="https://github.com/hvgopereira/netflix-remake/assets/162385532/d3ab375d-2ea4-434c-81e6-b724ba794f7a"> </img>
+</section>
