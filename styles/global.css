@@ -33,6 +33,7 @@
 body {
     background-image: url(/Projetos/netflix\ clone/assets/netflix-bg.jpg);
     
+    
 }
 
 .top-header {
@@ -87,7 +88,7 @@ body {
 
 .idioma-select {
     background: rgba(0, 0, 0, 0.375);
-    padding: 6px 22px;
+    padding: 6px 22px 6px 30px;
     border-radius: 3px;
     font-weight: 700;
     font-size: 15px;
@@ -126,6 +127,10 @@ body {
     width: 100%;
     height: 90vh;
     z-index: 99;
+    /* background: radial-gradient(circle at top, #9a183fb9, #241649d3, rgba(8, 5, 29, 0.7), transparent ); */
+    /* background: rgba(0, 0, 0, 0); */
+
+    
     
 }
 
@@ -180,6 +185,7 @@ body {
     width: 450px;
     height: 60px;
     font-size: 16px;
+
     background: rgba(0, 0, 0, 0.255);
     border: none;
     border: 1px solid rgba(255, 255, 255, 0.252);
@@ -301,6 +307,12 @@ body {
     /* font-size: 35px; */
 
     margin-left: 9px;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    margin-left: 6px;
+
 }
 
 
