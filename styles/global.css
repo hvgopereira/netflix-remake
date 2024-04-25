@@ -31,7 +31,7 @@
 /* /Divisor */
 
 body {
-    background-image: url(/Projetos/netflix\ clone/assets/netflix-bg.jpg);
+    background-image: url(../assets/netflix-bg.jpg);
     
     
 }
@@ -86,18 +86,38 @@ body {
     transform: scale(1.1);
 }
 
+.material-symbols-outlined {
+    position: absolute;
+    margin-left: 11px;
+
+}
+
 .idioma-select {
     background: rgba(0, 0, 0, 0.375);
-    padding: 6px 22px 6px 30px;
+    padding: 6px 22px 6px 40px;
     border-radius: 3px;
     font-weight: 700;
     font-size: 15px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    background-image: url(../assets/arrow.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    /* padding: 20px; */
 }
+
 
 .idioma-select option {
     background: black;
+
 }
 
+.idioma-select:active {
+    transform: rotateY(200px)
+}
 
 
 .btn-enter {
@@ -185,6 +205,7 @@ body {
     width: 450px;
     height: 60px;
     font-size: 16px;
+    padding-left: 10px;
 
     background: rgba(0, 0, 0, 0.255);
     border: none;
@@ -214,8 +235,9 @@ body {
 
 .btn-main:hover {
     background: white;
+    font-weight: 800;
     color: red;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .btn-main:active {
@@ -244,13 +266,15 @@ body {
     /* position: absolute; */
     /* left: 32px; */
     /* height: rem; */
+    /* position: absolute; */
     position: absolute;
+    width: 100%;
 
     /* background: radial-gradient(circle at top, #7c1736, #24154c, #5a28ff5b); */
     background: radial-gradient(circle at top, #9a183f, #241649d3, rgba(8, 5, 29, 0.7), transparent );
     /* border-radius: 15px; */
 
-    padding: 2rem 26rem;
+    padding: 2rem 28rem;
     /* padding: 2rem 48rem; */
 
     display: flex;
@@ -309,29 +333,18 @@ body {
     margin-left: 9px;
 }
 
-.material-symbols-outlined {
-    position: absolute;
-    margin-left: 6px;
-
-}
-
 
 /* SECTION ABOUT */
 .section-alls {
     background: rgb(0, 0, 0);
     z-index: 98;
-}
-
-.section-alls > * {
-    /* margin-top: -4rem; */
-    z-index: 98;
+    /* padding: 0 20rem; */
 }
 
 .tv-sec {
     background: black;
     padding: 5rem 10rem;
-    bottom: 10rem;
-    
+
     display: flex;
     justify-content: space-between;
     align-items: center;
