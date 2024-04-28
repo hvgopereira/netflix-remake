@@ -22,7 +22,16 @@ Em breve mostrarei o resultado do site, espero que gostem!
 <!--   <span min-width="150px" max-width="150px" width="150px align="right">Adicionado 22/04</span> -->
 </section>
 
+
 <section>
   <img src="https://github.com/hvgopereira/netflix-remake/assets/162385532/d3ab375d-2ea4-434c-81e6-b724ba794f7a"> </img>
 </section>
 
+##
+
+<section align="center" style="display: inline-block; ">
+  <strong> Softwares usados : </strong>
+  <img title="Adobe Photoshop" align="center" alt="hugo-ps" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
+  <img title="Html5" align="center" alt="hugo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img title="CSS3" align="center" alt="hugo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+</section>
