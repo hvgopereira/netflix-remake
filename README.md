@@ -30,7 +30,7 @@ Em breve mostrarei o resultado do site, espero que gostem!
 ##
 
 <section align="center" style="display: inline-block; ">
-  <strong> Softwares usados : </strong>
+  <strong> Usados : </strong>
   <img title="Adobe Photoshop" align="center" alt="hugo-ps" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
   <img title="Html5" align="center" alt="hugo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img title="CSS3" align="center" alt="hugo-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
