@@ -19,7 +19,6 @@ Em breve mostrarei o resultado do site, espero que gostem!
 <section>
   Obrigado por acompanhar meu progresso!.
   <h6 align="right">Adicionado 22/04</h6>
-<!--   <span min-width="150px" max-width="150px" width="150px align="right">Adicionado 22/04</span> -->
 </section>
 
 
