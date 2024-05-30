@@ -1,9 +1,19 @@
 # netflix-remake
 
+<br>
+
+ <section align="center">
+  <a href="https://x.com/hvgopereira"><img src="https://img.shields.io/badge/-Twitter-212121?style=for-the-badge&logo=Twitter&logoColor=white"></img></a>
+  <a href="https://discord.gg/gvzwyFMqNx" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+ </section>
+
+ <br>
+
 
 https://github.com/hvgopereira/netflix-remake/assets/162385532/2a2d386a-1d78-4f6f-92c9-f9b9850c47f2
 
-🔴 <strong >NÃO É RESPONSIVO </strong>🔴
+<h3 align="center">🔴NÃO É RESPONSIVO🔴</h3>
+
 
 <img title="Logo Hugo Pereira" src="https://github.com/hvgopereira/netflix-remake/assets/162385532/1063be5e-a9fa-4aba-a6e5-ff5a99957761" min-width="151px" max-width="150px" width="150px" align="right" alt="Logo Hugo Pereira" > </img>
 
