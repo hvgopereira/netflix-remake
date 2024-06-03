@@ -1,6 +1,6 @@
 # netflix-remake
 
-<br>
+<h4 align="center"> Contato: </h4>
 
  <section align="center">
   <a href="https://x.com/hvgopereira"><img src="https://img.shields.io/badge/-Twitter-212121?style=for-the-badge&logo=Twitter&logoColor=white"></img></a>
@@ -25,12 +25,12 @@ Durante o processo de construção, estou mergulhando na importância da estrutu
 
 Em breve mostrarei o resultado do site, espero que gostem!
 
-
 <section>
   Obrigado por acompanhar meu progresso!.
   <h6 align="right">Adicionado 22/04</h6>
 </section>
 
+##
 
 <section>
   <img src="https://github.com/hvgopereira/netflix-remake/assets/162385532/d3ab375d-2ea4-434c-81e6-b724ba794f7a"> </img>
